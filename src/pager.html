@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+    <style>
+        .green{
+        background-color:green
+        }
+        li.yellow{
+        background-color:yellow
+        }
+    </style>
+</head>
+<body>
+    <div id="div01" class='green'>Hello World!</div>
+    <h1>My Title</h1>
+    <p>parara tag</p>
+    <ul>
+        <li class="green">list1</li>
+        <li>list2</li>
+        <li class="yellow">list3</li>
+        <li>list4</li>
+    </ul>
+    <p><img alt="dom model" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg"></p>
+    <p>
+        <input title="enter your name" type="text" id="txtName" onchange="myfun()"/></p>
+    <script>
+        console.dir(document);
+        console.log(document.URL);
+        console.dir(document.children[0]);
+        console.dir(document.children[0].children[0]);
+        console.dir(document.children[0].children[1]);
+        console.dir(document.children[0].children[1].childNodes);
+    </script>
+</body>
+</html>

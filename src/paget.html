@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM_b</title>
+    <style>
+        .green{
+        background-color:green
+        }
+        li.yellow{
+        background-color:yellow
+        }
+    </style>
+</head>
+<body>
+    <div>Thank u God for everything</div>
+    <div id="div01" class='green'>Hello World!</div>
+    <h1>My Title</h1>
+    <p>Love yourself</p>
+    <ul>
+        <li class="green">list1</li>
+        <li>list2</li>
+        <li class="yellow">list3</li>
+        <li>list4</li>
+    </ul>
+    <p><img alt="dom model" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg"></p>
+    <p>
+        <input title="enter your name" type="text" id="txtName" value="Jeya Varshini" onchange="myfun()"/></p>
+    <script>
+        // document.getElementById("div01").innerHTML="Hello World! Updated"
+        // var a=document.getElementById("txtName");
+        // console.log(a.value);
+        // var listItems=document.getElementsByTagName('li');
+        // for(var i=0;i<listItems.length;i++)
+        // {
+        //     listItems[i].innerHTML="item"+(i+1);
+        // }
+        // listItems[2].innerHTML="updated text";
+        // var imglist=document.getElementsByTagName('img')
+        // imglist[0].src="../images/tiger.jpg"
+
+        // var listItems=document.getElementsByClassName('green')
+        // for(var i=0;i<listItems.length;i++)
+        // {
+        //     listItems[i].innerHTML="green color text updated"
+        // }
+        // console.dir(document.querySelector('li'));
+        // console.dir(document.querySelectorAll('li'));
+        // console.dir(document.querySelector('ul>li'));
+        // console.dir(document.querySelector('div'));
+        // console.dir(document.querySelector('#div01'));
+        // console.dir(document.querySelector('.green'));
+        // console.dir(document.querySelectorAll('div'));
+        // document.getElementById("div01").style.color='purple';
+        // console.dir(document.getElementsByClassName('green'));
+
+        // const arr=[1,2,3,4,5,6]
+        // const strArr=JSON.stringify(arr)
+        // console.log(strArr)
+        // const myObj={
+        //     firstname:"myfirstname",
+        //     lastlast:"mylastname"
+        // };
+        // const strjson=JSON.stringify(myObj)
+        // console.log(strjson)
+
+        // var javastudentlist={"studentlist":[
+        //     {"name":"Ajith","age":"22"},
+        //     {"name":"Vijay","age":"22"},
+        //     {"name":"Surya","age":"22"}
+        // ]};
+        // console.log(javastudentlist);
+
+        // const arr1=JSON.parse(strjson);
+        // console.log(arr1);
+        // const obj1=JSON.parse(strjson);
+        // console.log(obj1);
+        
+        function myfun()
+        {
+            document.getElementById("div01").innerText=document.getElementById("txtName").value;
+            document.getElementById("div01").style.color='purple';
+            var output=document.getElementById('div01');
+            output.style.backgroundColor="red";
+            output.style.border="3px solid orange";
+        }
+
+    </script>
+    
+</body>
+</html>
