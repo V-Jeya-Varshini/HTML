@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
-
 :root{
     --pale-blue: hsl(225, 100%, 94%);
     --bright-blue: hsl(245, 75%, 52%);
@@ -25,7 +24,6 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-
 }
 p{
     font-size: 16px;
@@ -53,7 +51,6 @@ button{
     font-size: 16px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-
 }
 .btn-change{
     background-color: transparent;
@@ -117,7 +114,6 @@ button{
 .container h1{
     color: hsl(223, 47%, 23%);
     margin: 10px 0;
-
 }
 .attribution {
     font-size: 11px; 
