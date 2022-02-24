@@ -1,0 +1,23 @@
+a:link{
+    font-size: 35px;
+    text-decoration: none;
+    color:goldenrod;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: blue;
+}
+
+a:active
+{
+    color:red;
+}
+
+.dropdown-content{
+    color:brown;
+    display:none;
+}

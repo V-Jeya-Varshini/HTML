@@ -1,0 +1,26 @@
+div{
+    background-color: blue;
+    color: firebrick;
+    font-size: 25px;
+    text-align:right;
+}
+
+p{
+    background-color: blue;
+    color: firebrick;
+    font-size: 25px;
+    text-align: center;
+}
+
+div p{
+    display:inline;
+    background-color: rgb(129, 30, 38);
+    color: firebrick;
+    font-size: 25px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
