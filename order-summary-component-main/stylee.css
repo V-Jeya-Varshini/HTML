@@ -93,6 +93,7 @@ body{
     font-size: 1rem;
     font-weight: 900;
     gap: 1rem;
+    background-color: hsl(255,100%,94%);
 }
 .music-img{
     width: 3.5rem;
