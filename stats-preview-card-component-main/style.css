@@ -1,0 +1,208 @@
+body {
+    background-color: #090B1A;
+    color: #FFF;
+    min-height: 40rem;
+    min-width: 80rem;
+  }
+  
+  main {
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    min-height: 40rem;
+  }
+  
+  b {
+    color: #AA5CDB;
+  }
+  
+  h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: .07rem;
+    line-height: 2.74rem;
+    margin-bottom: 1.65rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: .9375rem;
+  }
+  
+  .container {
+    background-color: #1B1938;
+    border-radius: .5rem;
+    display: flex;
+    height: 27.875rem;
+    margin: auto;
+    width: 69.375rem;
+  }
+  
+  .txt {
+    padding: 4.43rem 0 4rem 4.5rem;
+    width: 24.719rem;
+  }
+  
+  .info {
+    font-family: "Lexend Deca", sans-serif;
+    letter-spacing: -.01rem;
+    line-height: 1.6rem;
+    margin-left: -.12rem;
+    opacity: .75;
+    width: 21.9rem;
+  }
+  
+  .stats {
+    color: #FFF;
+    display: flex;
+    margin: 4.7rem auto 3.92rem;
+  }
+  
+  .stats-header {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+  }
+  
+  .stats-txt {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: .8rem;
+    letter-spacing: .02rem;
+    margin-top: .6rem;
+    opacity: .6;
+    text-transform: uppercase;
+    width: 9rem;
+  }
+  
+  .item:nth-child(3) {
+    margin-left: -.2rem;
+  }
+  
+  .image-header-desktop {
+    background-image: url("https://dimmageiras.github.io/frontend-mentor-stats-preview-card-component/images/image-header-desktop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 .5rem .5rem 0;
+    height: 27.875rem;
+    margin-left: 6.4rem;
+    width: 33.75rem;
+  }
+  
+  .image-header-desktop::after {
+    background-color: #550081;
+    border-radius: 0 .5rem .5rem 0;
+    content: '';
+    height: 27.875rem;
+    opacity: .5;
+    position: absolute;
+    width: 33.75rem;
+  }
+  
+  .color-overlay {
+    background-color: #9553D2;
+    border-radius: 0 .5rem .5rem 0;
+    height: 27.875rem;
+    mix-blend-mode: difference;
+    opacity: .1;
+    position: absolute;
+    width: 33.75rem;
+  }
+  
+  @media only screen and (max-width: 30rem) {
+    body {
+      min-width: 100%;
+    }
+  
+    main {
+      margin: 5.5rem auto;
+      min-height: 48.75rem;
+    }
+  
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: .075rem;
+      line-height: 2rem;
+      margin: 0.7rem auto 0.7rem -.1rem;
+    }
+  
+    .container {
+      display: block;
+      height: 48.75rem;
+      min-height: 48.75rem;
+      min-width: 20.438rem;
+      position: relative;
+      width: 20.438rem;
+    }
+  
+    .txt {
+      left: 0;
+      margin: 16.8rem auto auto 1.84rem;
+      padding: 0;
+      position: absolute;
+      text-align: center;
+      width: 17rem;
+    }
+  
+    .info {
+      font-family: "Inter", sans-serif;
+      font-size: .9rem;
+      letter-spacing: 0.018rem;
+      line-height: 1.58rem;
+      margin: 1rem auto auto -.17rem;
+      width: 17rem;
+    }
+  
+    .stats {
+      flex-direction: column;
+      margin: 2.6rem auto auto -.5rem;
+    }
+  
+    .item:nth-child(2) {
+      margin-top: -.8rem;
+    }
+  
+    .item:nth-child(3) {
+      margin: -.7rem 0 0;
+    }
+  
+    .stats-header {
+      margin: 0 0 0 .2rem;
+    }
+  
+    .stats-txt {
+      font-family: "Inter", sans-serif;
+      letter-spacing: .03rem;
+      margin: .66rem 0 2.8rem 0.1rem;
+      width: auto;
+    }
+  
+    .image-header-desktop {
+      background-image: url("https://dimmageiras.github.io/frontend-mentor-stats-preview-card-component/images/image-header-mobile.jpg");
+      border-radius: .5rem .5rem 0 0;
+      height: 15rem;
+      margin: 0;
+      width: 20.438rem;
+    }
+  
+    .image-header-desktop::after {
+      border-radius: .5rem .5rem 0 0;
+      height: 15rem;
+      width: 20.438rem;
+    }
+  
+    .color-overlay {
+      border-radius: .5rem .5rem 0 0;
+      height: 15rem;
+      width: 20.438rem;
+    }
+  }
+
+  .attribution{
+      text-align: center;
+  }

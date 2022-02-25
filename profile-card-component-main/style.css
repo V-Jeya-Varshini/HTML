@@ -12,6 +12,7 @@
     font-family: "Kumbh Sans", sans-serif;
   }
   
+  
   html,
   body,
   main{
@@ -19,10 +20,6 @@
     min-height: 100vh;
   }
 
-  body{
-      align-items: center;
-  }
-  
   main {
     background-color: var(--dark-cyan);
     background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
