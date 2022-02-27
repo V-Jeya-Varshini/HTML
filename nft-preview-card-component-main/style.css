@@ -7,7 +7,6 @@
     --White: hsl(0, 0%, 100%);
 }
 
-
 *{
     padding: 0;
     margin: 0;
@@ -19,7 +18,7 @@ body{
     font-size: 18px;
     background-color: var(--main_BG);
     color:   hsl(0, 0%, 60%);
-    padding: 10rem;
+    padding: 6rem;
 }
 
 p{
@@ -71,8 +70,6 @@ ul{
     transform: translate(-50%,-50%);
 }
 
-
-
 .container h2{
     color: var(--White);
     margin: 1rem 0.5rem 1rem 0;
@@ -109,7 +106,6 @@ ul{
     align-items: center;
     justify-content: start;
     margin: 1rem 0.5rem 0.5rem 0;
-
 }
 
 .container .avatar img{
@@ -129,12 +125,11 @@ ul{
     cursor: pointer;
 }
 
-
 @media(min-width: 400px){
     .container{
         width: 350px;
         margin: 0 auto 1rem;
-        border-radius: 20px;
+        border-radius: 1rem;
         box-shadow: 0px 36px 41px hsl(212, 54%, 7%);
     }
 }
