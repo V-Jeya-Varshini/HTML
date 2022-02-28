@@ -1,0 +1,115 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+  }
+  body {
+    background: hsl(257, 40%, 49%) url('./images/bg-mobile.svg') no-repeat top center;
+    background-size: contain;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1228px;
+  }
+  h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  p {
+    line-height: 2;
+    margin: 1rem 0;
+    font-size: 1.25rem;
+  }
+  img {
+    max-width: 100%;
+  }
+  header {
+    padding: 2rem;
+  }
+  header img {
+    width: 35vw;
+  }
+  main {
+    padding: 0 2rem;
+    text-align: center;
+  }
+  article {
+    margin: 2rem 0;
+  }
+  .button {
+    font-family: Poppins, sans-serif;
+    background-color: white;
+    color:hsl(257, 40%, 49%);
+    border: none;
+    border-radius: 40px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    box-shadow: 0 10px 10px -5px hsl(257, 40%, 20%);
+  }
+  .social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .social-icons a {
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+  }
+
+  @media only screen and (min-width: 960px) {
+    html, body {
+      height: 100%;
+    }
+    body {
+      background-image: url('./images/bg-desktop.svg');
+      background-size: cover;
+      margin: 0 auto;
+    }
+    header img {
+      width: 180px;
+    }
+    main {
+      display: flex;
+      text-align: left;
+    }
+    main > * {
+      flex: 1;
+    }
+    main > article {
+      margin: 0 0 0 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+    p {
+      line-height: 2;
+      margin: 1rem 0;
+      font-size: 1.25rem;
+    }
+    .social-icons {
+      margin: 0 2rem;
+      justify-content: flex-end;
+    }
+  }
+  @media only screen and (min-width: 1228px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
