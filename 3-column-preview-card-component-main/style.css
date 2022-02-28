@@ -87,6 +87,7 @@
     font-family: inherit;
     transition: all 0.2s ease-in-out;
     bottom: 42px;
+    font-weight: bold;
   }
   
   .sedan button {

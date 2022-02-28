@@ -1,155 +1,220 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    border: 0;
-  }
-  
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+
+  --ark-grayish-magenta: hsl(303, 10%, 53%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+
+  --spartan: 'Spartan', sans-serif;
+}
+
+body {
+  width: 100vw;
+  min-width: 375px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-family: var(--spartan);
+  background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 5rem 1.5rem;
+}
+
+.info-container {
+  text-align: center;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btm-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-grayish-magenta);
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.rate .img-holder,
+.rate p {
+  margin: 0.25rem 0;
+}
+
+.heading {
+  color: var(--very-dark-magenta);
+  margin-bottom: 1.5rem;
+}
+
+.paragraph {
+  color: var(--ark-grayish-magenta);
+  line-height: 1.5rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.review-container .text {
+  color: var(--very-dark-magenta);
+  font-weight: 700;
+}
+
+.comment-box {
+  background-color: var(--very-dark-magenta);
+  margin: 1rem 0;
+  padding: 3rem 1.75rem;
+  border-radius: 0.5rem;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.profile-info .img-holder {
+  margin-right: 1.5rem;
+}
+
+.profile-info .img-holder img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.profile-info .info {
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+}
+
+.profile-info .name {
+  color: var(--white);
+  font-weight: 700;
+}
+
+.profile-info .verify {
+  color: var(--soft-pink);
+}
+
+.comment {
+  color: var(--white);
+  font-size: 0.838rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1200px) {
   body {
-    color: #937b92;
-    font-family: "Spartan", sans-serif;
-    padding: 0 2vw;
-    font-size: 1.2rem;
-    font-weight: 500;
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
   }
-  
-  body .header {
-    padding-top: 3rem;
-    text-align: center;
-  }
-
-  body .header .header-head {
-    font-size: 40px;
-    padding: 0 2rem;
-    color: #502050;
+  .container {
+    padding: 0.25rem;
+    width: 80vw;
+    min-height: 75vh;
+    margin: 5rem 0;
   }
 
-  body .header .header-paragraph {
-    line-height: 2rem;
-    padding: 0 2rem;
-  }
-
-  body .rating-section .rating {
-    background: #f7f2f7;
-    height: 6rem;
-    margin: 2rem;
-    padding-top: 1rem;
+  .top-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 0.6rem;
+    flex-direction: row;
   }
 
-  body .rating-section .rating p {
-    font-weight: bold;
-    font-size: 16px;
-    color: #502050;
+  .info-container {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: start;
   }
 
-  body .testimonial-section {
+  .info-container .heading {
+    width: 75%;
+    font-size: 2.75rem;
+  }
+
+  .info-container .paragraph {
+    width: 80%;
+  }
+  .review-container {
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: flex-start;
+  }
+
+  .rate {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    justify-content: flex-start;
+    padding: 1rem 0;
+  }
+
+  .rate .img-holder {
     margin: 0 2rem;
-    color: white;
-    font-size: 18px;
-  }
-  body .testimonial-section .testimonials {
-    background: #502050;
-    margin-bottom: 1rem;
-    padding: 3rem 2rem;
-    border-radius: 0.7rem;
   }
 
-  body .testimonial-section .testimonials .testimonials-head {
+  .report-guru {
+    margin-left: 2.75rem;
+  }
+
+  .best-tech {
+    margin-left: 5.56rem;
+  }
+
+  .btm-container {
     display: flex;
-    height: 80px;
-    align-content: center;
-    align-items: center;
-    padding-bottom: 3rem;
+    flex-direction: row;
+    align-items: flex-start;
   }
 
-  body .testimonial-section .testimonials .testimonials-head img {
-    border-radius: 50%;
-    height: 60px;
-    width: 60px;
+  .comment-box {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 0;
   }
 
-  body .testimonial-section .testimonials .testimonials-head div {
-    padding-left: 20px;
+  .comment-box.colton {
+    margin-top: 2rem;
   }
 
-  body .testimonial-section .testimonials .testimonials-head div h4 {
-    margin: 0.3rem 0.5rem;
+  .comment-box.irene {
+    margin: 0 2rem;
+    margin-top: 4rem;
   }
 
-  body .testimonial-section .testimonials .testimonials-head div p {
-    margin: 0.3rem 0.5rem;
-    color: #ee68a4;
+  .comment-box.anne {
+    margin-top: 6rem;
   }
+}
 
-  body .testimonial-section .testimonials q {
-    line-height: 30px;
-  }
-
-  @media (min-width: 1000px) {
-    body .head {
-      display: flex;
-      margin: 2rem;
-    }
-
-    body .head .header {
-      text-align: left;
-      width: 50%;
-    }
-
-    body .head .rating-section {
-      padding: 3rem 2rem 0;
-      width: 50%;
-    }
-
-    body .head .rating-section .rating {
-      display: flex;
-      flex-direction: row;
-      height: 4rem;
-      padding-top: 0.35rem;
-      width: 80%;
-      justify-content: left;
-      margin: 2rem 0;
-    }
-
-    body .head .rating-section .rating div {
-      margin: 0 3%;
-    }
-
-    body .head .rating-section .rating-2 {
-      margin-left: 10%;
-    }
-
-    body .head .rating-section .rating-3 {
-      margin-left: 20%;
-    }
-
-    body .testimonial-section {
-      margin: 0 4rem;
-    }
-  }
-
-  @media (min-width: 1000px) {
-    body .testimonial-section {
-      display: flex;
-    }
-
-    body .testimonial-section .testimonials {
-      margin: 0 1%;
-      height: 80%;
-    }
-
-    body .testimonial-section .testimonials-2 {
-      margin-top: 2.5%;
-    }
-
-    body .testimonial-section .testimonials-3 {
-      margin-top: 5%;
-    }
-  }
+.attribution{
+  position: relative;
+  margin-top: 80px;
+}
