@@ -1,0 +1,85 @@
+/* header section */
+.header-main--container {
+    width: 62%;
+}
+
+.logo-container {
+    width: 170px;
+}
+
+.header-title {
+    font-size: 3rem;
+}
+
+.header-content--description {
+    font-size: 2rem;
+}
+/* end header section */
+
+/* Main number section */
+.main-numbers--container {
+    flex-direction: row;
+}
+
+.communities-icon, .message-icon {
+    position: relative;
+    left: 125px;
+    margin-bottom: 15px;
+}
+
+.main-number {
+    font-size: 7rem;
+    line-height: 4.2rem;
+}
+
+.main-number--description {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+}
+/* end number section */
+
+/* Second section articles */
+.article-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.background-first--top,
+.background-first--bottom,
+.background-second--top,
+.background-second--bottom {
+    height: 280px;
+} 
+
+.article-title {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.article-description {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.order {
+    order: -1;
+}
+/* end articles section */
+
+/* footer section  */
+.footer-background--top {
+    height: 180px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-huddle--container {
+    margin-left: 15px;
+}
+/* end footer section */
