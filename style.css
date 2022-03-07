@@ -11,8 +11,9 @@
     float: left;
     width: 50%;
     padding: 10px;
-    height: 600px; /* Should be removed. Only for demonstration */
+    height: 930px; /* Should be removed. Only for demonstration */
     text-align: center;
+    text-decoration: none;
   }
   
   /* Clear floats after the columns */
@@ -26,7 +27,7 @@
     float: left;
     width: 50%;
     padding: 10px;
-    height: 600px; /* Should be removed. Only for demonstration */
+    height: 1110px; /* Should be removed. Only for demonstration */
     text-align: center;
   }
   
