@@ -11,7 +11,7 @@ body, html {
   background-size: cover;
   height: 100%;
   margin: 0;
-  font-family: Arial;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 17px;
 }
 
@@ -24,8 +24,7 @@ body, html {
 }
 
 .heading{
-  color: rgb(0, 0, 0);
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(245, 245, 245, 0.767);
   text-align: center;
 }
 
