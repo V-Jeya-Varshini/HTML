@@ -1,0 +1,82 @@
+body {
+    background-color: #090B1A;
+    color: #FFF;
+    min-height: 64.5rem;
+    min-width: 80rem;
+  }
+  
+  main {
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    min-height: 40rem;
+  }
+  
+  b {
+    color: #AA5CDB;
+  }
+  
+  h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.1rem;
+    font-weight: 700;
+    letter-spacing: .07rem;
+    line-height: 2.74rem;
+    margin-left: -1.5rem;
+  }
+ 
+  .container {
+    background-color: #1B1938;
+    border-radius: .5rem;
+    display: flex;
+    height: 64rem;
+    margin:auto;
+    width: 69.375rem;
+  }
+  
+  .txt {
+    padding: 4.43rem 0 4rem 4.5rem;
+    width: 24.719rem;
+  }
+  
+  .info {
+    font-family: "Lexend Deca", sans-serif;
+    letter-spacing: -.01rem;
+    line-height: 1.6rem;
+    margin-left: -1.5rem;
+    opacity: .75;
+    width: 64rem;
+    text-align: justify;
+  }
+  
+  .image-header-desktop {
+    background-image: url("./images/about me.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem .5rem .5rem 0.5rem;
+    height: 27.875rem;
+    margin-left: -1.5rem;
+    width: 64rem;
+  }
+  
+  .image-header-desktop::after {
+    background-color: #550081;
+    border-radius: 0.5rem .5rem .5rem 0.5rem;
+    content: '';
+    height: 27.875rem;
+    opacity: .5;
+    position: absolute;
+    width: 64rem;
+  }
+  
+  .color-overlay {
+    background-color: #9553D2;
+    border-radius: 0.5rem .5rem .5rem 0.5rem;
+    height: 27.875rem;
+    mix-blend-mode: difference;
+    opacity: .1;
+    position: absolute;
+    width: 64rem;
+  }
+  

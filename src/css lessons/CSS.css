@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    background-image: url("./images/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65rem;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .container {
+    border-radius: .5rem;
+    display: flex;
+    height: 60rem;
+    margin:auto;
+    width: 69.375rem;
+  }
+  
+  .heading{
+    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .table {
+    padding: 4.43rem 0 4rem 4.5rem;
+    width: 67rem;
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 15px;
+      padding: 10px;
+      align-items: center;
+    }
+    
+    .grid-container > div {
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5);
+      text-align: center;
+      font-size: 30px;
+    }
+  
+    .grid-container > div > a{
+      color: rgba(245, 245, 245, 0.349);
+      text-decoration: none;
+    }
+    

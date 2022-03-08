@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("./images/laptop.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(245, 245, 245, 0.658);
+    width: 100%;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .container1 {
+    display: flex;
+    background-color: #fff;
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-section {
+    height: 100%;
+  }
+  .image-section img {
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem 2rem 3rem;
+  }
+  
+  .article-header,
+  .article-author-name {
+    color: black;
+    font-weight: 700;
+  }
+  
+  .article-header {
+    font-size: 1.4rem;
+  }
+  
+  .article-desc {
+    color: #9badc4;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+ 
