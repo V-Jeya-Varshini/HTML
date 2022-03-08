@@ -9,7 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 65rem;
+    height: 100%;
     margin: 0;
     font-family: "Red Hat Display", sans-serif;
     font-size: 17px;
@@ -18,7 +18,7 @@
   .container {
     border-radius: .5rem;
     display: flex;
-    height: 60rem;
+    height: 100%;
     margin:auto;
     width: 69.375rem;
   }
