@@ -19,13 +19,8 @@ body, html {
   }
   
   .bg {
-    /* The image used */
     background-image: url("./images/laptop.jpg");
-  
-    /* Full height */
     height: 100%; 
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +30,7 @@ body, html {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px; 
   }
 
   .row:after {
@@ -96,6 +91,8 @@ div {
   }
   
   .text-section {
+    background-color: rgba(0, 0, 255, 0.13);
+    border-top-right-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 2rem 4rem 2rem 3rem;
@@ -112,7 +109,7 @@ div {
   }
   
   .article-desc {
-    color: #9badc4;
+    color: #6c91c0;
     font-size: 14px;
     line-height: 20px;
     margin-bottom: 1.5rem;

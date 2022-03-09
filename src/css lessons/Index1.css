@@ -27,14 +27,14 @@ td{
 }
 
 div{
-    background-color: hsl(178, 66%, 92%);
+    background-color: hsla(187, 65%, 70%, 0.432);
     width: 55%;
     height: 80%;
     text-align: center;
     padding: 10px;
     position: relative;
     border-radius: 20px;
-    box-shadow: 5px 10px 20px hsl(240, 1%, 34%);
+    box-shadow: 5px 10px 20px hsla(300, 2%, 46%, 0.603);
 }
 
 a{
