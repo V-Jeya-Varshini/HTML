@@ -201,51 +201,7 @@ ul {
 }
 
 .social-menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 5%;
-}
-
-.social-menu__link1 {
-  background-image: url(./images/facebook-logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  font-size: 1.25rem;
-  width: 2.25rem;
-  height: 2.25rem;
-  line-height: 2.25rem;
-  text-align: center;
-  display: inline-block;
-}
-
-.social-menu__link2 {
-  background-image: url(./images/twitter-logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  font-size: 1.25rem;
-  width: 2.25rem;
-  height: 2.25rem;
-  line-height: 2.25rem;
-  text-align: center;
-  display: inline-block;
-}
-
-.social-menu__link3 {
-  background-image: url(./images/instagram-logo.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  border: 1px solid #fff;
-  border-radius: 50%;
-  font-size: 1.25rem;
-  width: 2.25rem;
-  height: 2.25rem;
-  line-height: 2.25rem;
-  text-align: center;
-  display: inline-block;
+  border-style: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -307,7 +263,7 @@ ul {
   }
 
   .illustration-container {
-    background-image: url('images/bg-curve-mobile.svg');
+    background-image: url('./images/bg-curve-mobile.svg');
     height: 53px;
   }
 
