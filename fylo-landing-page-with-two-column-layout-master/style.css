@@ -1,11 +1,11 @@
 a {  text-decoration: none; color: #fff; }
 
 body {
+  box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 ul { 
@@ -22,14 +22,14 @@ ul {
 }
 
 .header-logo {  
-  vertical-align: middle; 
   padding-right: 50%; 
+  vertical-align: middle; 
 }
 
 .header-nav__menu {
   color: hsl(238, 22%, 44%);
-  padding-right: 3%;
   font-size: 1.1rem;
+  padding-right: 3%;
 }
 
 .header-nav__menu:hover {  
@@ -42,23 +42,23 @@ ul {
 
 .illustration-container {
   background-image: url('images/bg-curve-desktop.svg');
-  background-repeat: no-repeat;
   background-position: center top;
+  background-repeat: no-repeat;
   height: 114px;
-  width: 100%;
   margin: 0;
   margin-top: 5%;
   padding: 0;
+  width: 100%;
 }
 
 .main-content__btn {
-  width: 50%;
   background: hsl(224, 93%, 58%);
   border: 1px solid transparent;
   border-radius: 4px;
+  font-size: 1.25rem;
   padding: 2% 7%;
   vertical-align: middle;
-  font-size: 1.25rem;
+  width: 50%;
 }
 
 .main-content__btn:hover {
@@ -66,12 +66,12 @@ ul {
 }
 
 .main-content__email {
-  width: 40%;
   border: 1px solid hsl(243, 87%, 12%);
   border-radius: 4px;
+  font-size: 1.05rem;
   padding: 3% 7%;
   margin-right: 5%;
-  font-size: 1.05rem;
+  width: 40%;
 }
 
 .main-content__img {  
@@ -80,8 +80,8 @@ ul {
 
 .main-content__link {
   color: hsl(170, 45%, 43%);
-  text-decoration: underline;
   font-size: 1.25rem;
+  text-decoration: underline;
 }
 
 .main-content__link:hover {  
@@ -89,8 +89,8 @@ ul {
 }
 
 .main-content__section {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
   padding: 5%;
 }
@@ -100,9 +100,9 @@ ul {
   margin: 7% 0; 
 }
 
-.main-content__title {  
-  font-size: 2rem; 
+.main-content__title { 
   color: hsl(243, 87%, 12%); 
+  font-size: 2rem; 
 }
 
 .section-2 {  
@@ -127,9 +127,9 @@ ul {
 
 .section-3 .main-content__email {
   display: inline-block;
-  width: 80%;
   margin: auto;
   margin-bottom: 5%;
+  width: 80%;
 }
 
 .section-3 .main-content__title {  
@@ -147,13 +147,13 @@ ul {
 }
 
 .card {
-  width: 80%;
-  text-align: left;
   background-color: #fff;
+  box-shadow: 0 0 15px 2px hsl(0, 0%, 75%);
   color: hsl(243, 87%, 12%);
   margin-top: 5%;
   padding: 5%;
-  box-shadow: 0 0 15px 2px hsl(0, 0%, 75%);
+  text-align: left;
+  width: 80%;
 }
 
 .card__footer {  
@@ -165,10 +165,10 @@ ul {
 }
 
 .card__footer__avatar {
-  float: left;
-  width: 15%;
   border-radius: 50%;
+  float: left;
   padding: 5%;
+  width: 15%;
 }
 
 .contact-info__item {  
@@ -176,9 +176,9 @@ ul {
 }
 
 .footer-logo {
+  filter: brightness(0) invert(1);
   padding: 5% 3% 0;
   -webkit-filter: brightness(0) invert(1);
-  filter: brightness(0) invert(1);
 }
 
 .footer-main {  
@@ -219,8 +219,8 @@ ul {
   .section-1 .main-content__btn {
     display: inline-block;
     margin-top: 5%;
-    width: 80%;
     text-align: center;
+    width: 80%;
   }
 }
 
@@ -254,8 +254,8 @@ ul {
   }
 
   .header-logo {  
-    width: 30%; 
     padding-right: 10%; 
+    width: 30%; 
   }
 
   .header-nav__menu {  
@@ -305,8 +305,8 @@ ul {
   }
 
   .section-3 .section-right {  
-    padding-top: 10%; 
     padding-bottom: 10%; 
+    padding-top: 10%; 
   }
 
   .section-left {  

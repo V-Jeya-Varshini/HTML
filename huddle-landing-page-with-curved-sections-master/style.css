@@ -18,12 +18,12 @@ p {
 }
 
 .nav-btn {
-  float: right;
   background-color: transparent;
   border: 2px solid hsl(321, 100%, 78%);
-  padding: 0.5% 2%;
   border-radius: 20px;
   color: hsl(321, 100%, 78%);
+  float: right;
+  padding: 0.5% 2%;
 }
 
 .nav-btn:hover {
@@ -42,18 +42,18 @@ p {
 }
 
 .title-par {
-  padding: 0 32%;
   line-height: 1.5;
+  padding: 0 32%;
 }
 
 .title-btn {
-  padding: 1.3% 7%;
-  border-radius: 25px;
-  border: none;
-  margin-top: 0.8%;
   background-color: hsl(322, 100%, 66%);
-  color: white;
+  border: none;
+  border-radius: 25px;
   box-shadow: 0px 1px 10px 2px rgb(41, 40, 40, 0.4);
+  color: white;
+  margin-top: 0.8%;
+  padding: 1.3% 7%;
 }
 
 .title-btn:hover {
@@ -63,17 +63,17 @@ p {
 
 .title-image {
   padding: 5%;
-  width: 70%;
   padding-bottom: 0;
+  width: 70%;
 }
 
 #features {
   display: grid;
+  background: url(images/bg-section-top-desktop-1.svg) no-repeat bottom;
+  grid-template-areas: "features-left features-right";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "features-left features-right";
   padding: 5% 22% 16% 22%;
-  background: url(images/bg-section-top-desktop-1.svg) no-repeat bottom;
 }
 
 .features-left {
@@ -87,9 +87,9 @@ p {
 }
 
 #features h1 {
+  font-family: "Poppins";
   font-size: 4rem;
   margin: 0;
-  font-family: "Poppins";
 }
 
 .features-image {
@@ -108,54 +108,54 @@ p {
 }
 
 .grow-together-image {
-  width: 30%;
   float: right;
+  width: 30%;
 }
 
 #grow-together h2 {
-  font-weight: 800;
   font-family: "Poppins";
+  font-weight: 800;
 }
 
 .grow-together-inf {
+  line-height: 1.5;
   margin-top: 5%;
   padding-right: 60%;
-  line-height: 1.5;
 }
 
 #flowing-conversations {
-  padding: 15% 7% 20% 7%;
   background-image: url(images/bg-section-top-desktop-2.svg),
     url(images/bg-section-bottom-desktop-1.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: bottom, top;
+  padding: 15% 7% 20% 7%;
 }
 
 .flowing-conversations-image {
-  width: 30%;
   float: left;
+  width: 30%;
 }
 
 .flowing-conversations-inf {
+  line-height: 1.5;
   margin-top: 5%;
   padding-left: 58%;
-  line-height: 1.5;
 }
 
 #flowing-conversations h2 {
-  font-weight: 800;
   font-family: "Poppins";
+  font-weight: 800;
 }
 
 #your-user {
-  padding: 2% 7% 5% 7%;
-  background-position: bottom;
   background-color: hsl(207, 100%, 98%);
+  background-position: bottom;
+  padding: 2% 7% 5% 7%;
 }
 
 .your-user-image {
-  width: 30%;
   float: right;
+  width: 30%;
 }
 
 #your-user h2 {
@@ -164,32 +164,32 @@ p {
 }
 
 .your-user-inf {
+  line-height: 1.5;
   margin-top: 5%;
   padding-right: 60%;
-  line-height: 1.5;
 }
 
 #try-it {
-  padding: 15% 7% 25% 7%;
-  text-align: center;
   background-image: url(images/bg-section-bottom-desktop-2.svg),
     url(images/bg-footer-top-desktop.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
+  padding: 15% 7% 25% 7%;
+  text-align: center;
 }
 
 #try-it h1 {
-  font-size: 2.2rem;
   font-family: "Poppins";
+  font-size: 2.2rem;
 }
 
 .try-it-btn {
-  padding: 1.5% 9%;
-  border-radius: 25px;
-  border: none;
   background-color: hsl(322, 100%, 66%);
-  color: white;
+  border: none;
+  border-radius: 25px;
   box-shadow: 0px 1px 10px 2px rgb(41, 40, 40, 0.4);
+  color: white;
+  padding: 1.5% 9%;
 }
 
 .try-it-btn:hover {
@@ -198,14 +198,13 @@ p {
 }
 
 #footer {
-  padding: 7%;
   color: white;
   display: grid;
+  grid-template-areas: "left right";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "left right";
   line-height: 1.5;
-  background: hsl(192, 100%, 9%);
+  padding: 7%;
 }
 
 .left {
@@ -228,10 +227,10 @@ p {
 }
 
 .input-btn {
-  padding: 2% 10%;
-  border-radius: 5px;
   border: none;
+  border-radius: 5px;
   margin-top: 2%;
+  padding: 2% 10%;
 }
 
 .input-btn:hover {
@@ -241,10 +240,10 @@ p {
 .footer-btn {
   background-color: hsl(322, 100%, 66%);
   border: none;
-  margin: 5% 0 0 4%;
-  padding: 2% 7%;
   border-radius: 5px;
   color: white;
+  margin: 5% 0 0 4%;
+  padding: 2% 7%;
 }
 
 .footer-btn:hover {
@@ -257,8 +256,8 @@ p {
 }
 
 .icon-contact {
-  margin: 15% 5% 0 0;
   font-size: 2.2rem;
+  margin: 15% 5% 0 0;
 }
 
 .icon-contact:hover {
@@ -279,8 +278,8 @@ p {
   }
 
   #title {
-    padding: 5% 5% 0 5%;
     margin-top: 15%;
+    padding: 5% 5% 0 5%;
   }
 
   #title h1 {
@@ -293,13 +292,13 @@ p {
   }
 
   .title-btn {
-    padding: 3% 12%;
     margin: 10% 0 20% 0;
+    padding: 3% 12%;
   }
 
   .title-image {
-    width: 82%;
     margin-bottom: 20%;
+    width: 82%;
   }
 
   #features {
@@ -314,8 +313,8 @@ p {
 
   .features-left {
     grid-area: features-left;
-    padding-right: 0%;
     margin-bottom: 30%;
+    padding-right: 0%;
   }
 
   .features-right {
@@ -324,9 +323,9 @@ p {
   }
 
   .features-image {
-    width: 12%;
     position: relative;
     right: 25%;
+    width: 12%;
   }
 
   #features p {
@@ -340,9 +339,9 @@ p {
   }
 
   .grow-together-image {
-    width: 65%;
     float: none;
     padding-top: 0%;
+    width: 65%;
   }
 
   .grow-together-inf {
@@ -360,8 +359,8 @@ p {
   }
 
   .flowing-conversations-image {
-    width: 65%;
     float: none;
+    width: 65%;
   }
 
   .flowing-conversations-inf {
@@ -371,14 +370,14 @@ p {
   }
 
   #your-user {
-    padding: 2% 7% 15% 7%;
     background-color: hsl(207, 100%, 98%);
+    padding: 2% 7% 15% 7%;
     text-align: center;
   }
 
   .your-user-image {
-    width: 65%;
     float: none;
+    width: 65%;
   }
 
   .your-user-inf {
@@ -396,23 +395,23 @@ p {
   }
 
   .try-it-btn {
-    padding: 3% 16%;
     margin-top: 5%;
+    padding: 3% 16%;
   }
 
   #footer {
-    padding: 7%;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "right"
       "left ";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 7%;
   }
 
   .left {
-    padding-right: 0%;
     margin-top: 5%;
+    padding-right: 0%;
   }
 
   .left p {
@@ -420,8 +419,8 @@ p {
   }
 
   .right {
-    padding-left: 0%;
     float: left;
+    padding-left: 0%;
   }
 
   .right p {
@@ -429,19 +428,19 @@ p {
   }
 
   .input-btn {
-    padding: 3% 16%;
     margin-top: 5%;
+    padding: 3% 16%;
   }
 
   .footer-btn {
     float: right;
+    font-size: 15px;
     margin: 3% 27% 0 4%;
     padding: 3% 8%;
-    font-size: 15px;
   }
 
   .icon-contact {
-    margin: 10% 5% 0 0;
     font-size: 2.2rem;
+    margin: 10% 5% 0 0;
   }
 }
