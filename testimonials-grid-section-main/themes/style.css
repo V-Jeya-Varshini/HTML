@@ -16,7 +16,7 @@
     padding: 0;
 }
 
-html, 
+html,
 body {
     overflow-x: hidden;
 }
@@ -31,7 +31,7 @@ body {
 	width: 100%; 
 }
 
-.innerdiv {
+.container {
 	display: grid;
 	grid-gap: 1.5rem;
 	grid-template-columns: repeat(4,17rem);
@@ -102,7 +102,6 @@ body {
     justify-content: center;
 }
 
-
 .name,
 .name-dark,
 .review p,
@@ -146,15 +145,17 @@ body {
 .designation-dark,
 .review-dark p,
 .review-dark h4 {
-	color: rgba(0, 0, 0, 0.801);
+	color: rgba(0, 0, 0, 0.925);
 }
 
 .designation,
-.review p,
-.review-dark p,
+.review p {
+    opacity:80%;
+}
+
 .designation-dark,
 .review-dark p {
-    opacity: 50%;
+    opacity: 95%;
 }
 
 .name {

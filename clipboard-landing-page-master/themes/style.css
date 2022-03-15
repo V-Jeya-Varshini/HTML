@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 
+:root {
+  --strong-Cyan: hsl(171, 66%, 44%);
+  --light-Blue: hsl(233, 100%, 69%);
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+}
+
 *,
 *::before,
 *::after {
@@ -18,24 +25,22 @@ h1,
 h2,
 h3,
 h4 {
-    color: hsl(210, 10%, 33%);
+    color: var(--dark-grayish-blue);
 }
 
 p {
-    color: hsl(201, 11%, 66%);
+    color: var(--grayish-blue);
 }
 
-.main {
+.top-container {
     background-image: url(../images/bg-header-desktop.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.mainwrap {
+.content {
     display: grid;
-    display: -moz-grid;
-    display: -ms-grid;
     grid-gap: 40px;
     grid-template-columns: 1fr;
     margin: 0 auto;
@@ -46,11 +51,17 @@ p {
     width: 80%;
 }
 
-.mainbuttons {
+.content p {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 700px;
+}
+
+.download-click {
     padding-bottom: 30px;
 }
 
-.mainbuttons button {
+.download-click button {
     border: none;
     border-radius: 30px;
     color: white;
@@ -61,233 +72,175 @@ p {
     padding: 20px 77px;
 }
 
-.mainbuttons button:first-child {
-    background-color: hsl(171, 66%, 44%);
+.download-click button:first-child {
+    background-color: var(--strong-Cyan);
 }
 
-.mainbuttons button:last-child {
-    background-color: hsl(233, 100%, 69%);
+.download-click button:last-child {
+    background-color: var(--light-Blue);
 }
 
 .features {
-    padding: 70px 0;
-}
-
-.featureswrap {
     margin: 0 auto;
-    width: 80%;
+    width: 50%;
 }
 
-.featureswrap h2,
-p {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.featureflex {
+.feature-box {
+    column-gap: 25px ;
     display: grid;
-    display: -moz-grid;
-    display: -ms-grid;
-    grid-gap: 60px;
-    grid-template-columns: 1fr;
-    place-items: center;
+    grid-template-columns: 55% 45%;
+}
+
+.computer-features {
+    padding: 60px 0;
+}
+
+.features h2 {
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.featuretext {
-    margin-bottom: 30px
+.features p {
+    margin-bottom: 30px;
+    text-align: center;
 }
 
-.featureimage img {
+.feature-text {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 50px;
+    margin-top: 75px;
+    place-items: center;
+    width: 450px;
+}
+
+.text h2,
+.text p {
+    text-align: left;
+}
+
+.text p {
+    margin-bottom:50px;
+}
+
+.computer-image img {
+    margin-left: -360px;
     margin-top: 30px;
-    width: 300px;
+    width: 190%;
 }
 
-.morefeatures {
+.device-features {
     padding: 50px 0;
 }
 
-.morefeatureswrap {
+.more-features {
     margin: 0 auto;
-    width: 80%;
+    width: 55%;
 }
 
-.morefeatures h2,
-p {
+.more-features h2,
+.more-features p {
     margin-bottom: 20px;
-    text-align: center;
+    text-align:center;
 }
 
-.morefeaturesimg img {
+.device-image img {
     margin: 30px 0;
     width: 100%;
 }
 
-.morefeaturesgrid {
+.other-features {
     display: grid;
-    display: -moz-grid;
-    display: -ms-grid;
-    grid-gap: 40px;
-    grid-template-columns: 1fr;
-    place-items: center;
+    grid-gap: 2.5em;
+    grid-template-columns: repeat(3, 400px);
+    margin-left: -275px;
+    margin-top: 3em;
     text-align: center;
 }
 
-.morefeature img {
+.image-text img {
     margin-bottom: 20px;
 }
 
-.users {
+.user-container {
     padding: 70px 0;
 }
 
-.userswrap {
+.users {
     display: grid;
-    display: -moz-grid;
-    display: -ms-grid;
     grid-gap: 70px;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(5, 1fr);
     place-items: center;
 }
 
-.download {
+.download-two {
     padding: 70px 0;
 }
 
-.downloadwrap {
+.download-text {
     margin: 0 auto;
     text-align: center;
     width: 80%;
 }
 
-.downloadwrap p {
+.download-text p {
     margin: 20px 0;
+    margin-left: 220px;
+    width: 650px;
 }
 
-.downloadbuttons button {
+.download-click button {
     border: none;
     border-radius: 30px;
     color: white;
     cursor: pointer;
     font-size: 15px;
+    margin-top: 30px;
     margin-bottom: 12px;
     outline: none;
     padding: 20px 77px;
 }
 
-.downloadbuttons button:first-child {
-    background-color: hsl(171, 66%, 44%);
+.download-click button:first-child {
+    background-color: var(--strong-Cyan);
 }
 
-.downloadbuttons button:last-child {
-    background-color: hsl(233, 100%, 69%);
+.download-click button:last-child {
+    background-color: var(--light-Blue);
 }
 
 footer {
     background-color: whitesmoke;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 
-.footerwrap {
+.bottom-container {
     display: grid;
-    display: -moz-grid;
-    display: -ms-grid;
-    grid-template-columns: 1fr;
-    place-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 60px;
 }
 
-.footerlogo img {
+.bottom-logo img {
     height: 70px;
-    margin-bottom: 20px;
-}
-
-.footeritem:last-child {
-    margin: 20px 0;
-}
-
-.footeritem p .footer-item span img {
-    cursor: pointer;
-}
-
-.footeritem p:hover {
-    color: hsl(171, 66%, 44%);
-}
-
-.footeritem span img:hover {
-    background-color: hsl(171, 66%, 44%);
-}
-
-.para {
     margin-bottom: 40px;
 }
 
-@media only screen and (min-width:1090px) {
+.bottom-item:last-child {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+}
 
-    .main{
-        background-image: url(../images/bg-header-mobile.png);
-    }
-    
-    .mainwrap {
-        width: 50%;
-    }
+.bottom-item span img {
+    cursor: pointer;
+}
 
-    .featureswrap {
-        margin: 0 auto;
-        width: 60%;
-    }
+.bottom-item p {
+    color: hsla(0, 1%, 19%, 0.76);
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
 
-
-    .featureflex {
-        grid-gap: 170px;
-        grid-template-columns: 1fr 1fr;
-        position: relative;
-    }
-
-    .featuretext {
-        margin-top: 70px
-    }
-
-    .featureimage img {
-        height: 400px;
-        left: -160px;
-        position: absolute;
-        top: 40px;
-        width: 600px;
-    }
-
-    .morefeatureswrap {
-        margin: 0 auto;
-        width: 60%;
-    }
-
-
-    .morefeaturesgrid {
-        grid-gap: 60px;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .morefeature img {
-        margin-bottom: 20px;
-    }
-
-    .userswrap {
-        grid-gap: 20px;
-        grid-template-columns: repeat(5, 1fr);
-    }
-
-    .downloadwrap {
-        width: 60%;
-    }
-
-    .downloadwrap p {
-        margin: 40px 0;
-    }
-
-    .footerwrap {
-        grid-template-columns: repeat(5, 1fr);
-    }
-
-    .footeritem:nth-child(4) {
-        margin-top: -45px;
-    }
+.paragraph {
+    margin-bottom: 40px;
 }
